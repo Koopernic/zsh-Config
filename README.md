@@ -1,5 +1,5 @@
 # zsh config
-+ OS           : Kali Linux 2.2
++ OS           : Kali Linux 2020.3
 + Terminal     : Terminator
 + Font         : MesloLG NF Regular (Size: 13pt)
 
