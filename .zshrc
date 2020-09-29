@@ -131,6 +131,8 @@ alias psmem10="ps auxf | sort -nr -k 4 | head -10"
 alias pscpu="ps auxf | sort -nr -k 3"
 alias pscpu10="ps auxf | sort -nr -k 3 | head -10"
 
+# Enable Bluetooth
+alias bt="sudo systemctl start bluetooth"
 # Mount Ventoy USB
 alias ventoy="sudo mount.exfat-fuse /dev/sdc1 /media/koopernic/ventoy"
 
