@@ -138,10 +138,10 @@ alias bt="sudo systemctl start bluetooth"
 alias ventoy="sudo mount.exfat-fuse /dev/sdc1 /media/koopernic/ventoy"
 
 # Encrypt with AES
-alias aese='aescrypt -e -p'
+alias aes-encrypt="aescrypt -e -p"
 
 # Decrypt with AES
-alias aesd = 'aescrypt -d -p'
+alias aes-decrypt="aescrypt -d -p"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
