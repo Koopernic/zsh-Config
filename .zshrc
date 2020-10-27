@@ -133,8 +133,15 @@ alias pscpu10="ps auxf | sort -nr -k 3 | head -10"
 
 # Enable Bluetooth
 alias bt="sudo systemctl start bluetooth"
+
 # Mount Ventoy USB
 alias ventoy="sudo mount.exfat-fuse /dev/sdc1 /media/koopernic/ventoy"
+
+# Encrypt with AES
+alias aese='aescrypt -e -p'
+
+# Decrypt with AES
+alias aesd = 'aescrypt -d -p'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
