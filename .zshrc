@@ -143,5 +143,8 @@ alias aes-encrypt="aescrypt -e -p"
 # Decrypt with AES
 alias aes-decrypt="aescrypt -d -p"
 
+# BOT Instagram Genesis Importaciones
+alias bot="sudo ./SimpleInstaBot-linux.AppImage --no-sandbox"
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
